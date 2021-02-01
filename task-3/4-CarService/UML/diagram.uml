@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.senla.service.OrderService</OriginalElement>
+  <nodes>
+    <node x="738.375" y="462.5">com.senla.api.service.IOrderService</node>
+    <node x="479.37499999999994" y="451.0">com.senla.dao.OrderDao</node>
+    <node x="123.69976851851845" y="325.0">com.senla.api.dao.IMasterDao</node>
+    <node x="613.6702314814812" y="696.0">com.senla.service.OrderService</node>
+    <node x="980.9247685185185" y="33.0">com.senla.model.Garage</node>
+    <node x="241.4997685185184" y="66.0">com.senla.model.Master</node>
+    <node x="216.49999999999994" y="495.0">com.senla.dao.MasterDao</node>
+    <node x="556.2747685185185" y="0.0">com.senla.model.Order</node>
+    <node x="911.375" y="495.0">com.senla.dao.GarageDao</node>
+    <node x="36.5" y="495.5">com.senla.api.service.IMasterService</node>
+    <node x="814.6997685185186" y="325.0">com.senla.api.dao.IGarageDao</node>
+    <node x="23.449768518518454" y="762.5">com.senla.service.MasterService</node>
+    <node x="1061.1612037037037" y="762.5">com.senla.service.GarageService</node>
+    <node x="1142.375" y="495.5">com.senla.api.service.IGarageService</node>
+    <node x="375.69976851851845" y="303.0">com.senla.api.dao.IOrderDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.senla.service.GarageService" target="com.senla.model.Garage">
+      <point x="0.0" y="-38.0" />
+      <point x="1137.1612037037037" y="676.0" />
+      <point x="1131.875" y="676.0" />
+      <point x="1131.875" y="283.0" />
+      <point x="1122.2247685185184" y="283.0" />
+      <point x="62.80000000000001" y="93.5" />
+    </edge>
+    <edge source="com.senla.dao.MasterDao" target="com.senla.model.Master">
+      <point x="78.375" y="-38.5" />
+      <point x="399.37499999999994" y="431.0" />
+      <point x="365.19976851851845" y="431.0" />
+      <point x="365.19976851851845" y="283.0" />
+      <point x="386.3997685185185" y="283.0" />
+      <point x="64.40000000000009" y="60.5" />
+    </edge>
+    <edge source="com.senla.dao.GarageDao" target="com.senla.api.dao.IGarageDao">
+      <point x="-78.75" y="-38.5" />
+      <point x="937.625" y="431.0" />
+      <point x="919.6997685185186" y="431.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.senla.dao.OrderDao" target="com.senla.model.Order">
+      <point x="89.25" y="-82.5" />
+      <point x="687.625" y="431.0" />
+      <point x="659.494537037037" y="431.0" />
+      <point x="659.494537037037" y="283.0" />
+      <point x="685.0747685185185" y="283.0" />
+      <point x="36.799999999999955" y="126.5" />
+    </edge>
+    <edge source="com.senla.service.GarageService" target="com.senla.dao.GarageDao">
+      <point x="-50.66666666666666" y="-38.0" />
+      <point x="70.0" y="38.5" />
+    </edge>
+    <edge source="com.senla.service.OrderService" target="com.senla.model.Order">
+      <point x="18.555555555555543" y="-104.5" />
+      <point x="715.7257870370368" y="676.0" />
+      <point x="727.875" y="676.0" />
+      <point x="727.875" y="283.0" />
+      <point x="721.8747685185185" y="283.0" />
+      <point x="73.60000000000002" y="126.5" />
+    </edge>
+    <edge source="com.senla.service.OrderService" target="com.senla.api.service.IOrderService">
+      <point x="37.111111111111086" y="-104.5" />
+      <point x="734.2813425925923" y="656.0" />
+      <point x="814.875" y="656.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="com.senla.service.MasterService" target="com.senla.model.Master">
+      <point x="-53.0" y="-38.0" />
+      <point x="49.949768518518454" y="676.0" />
+      <point x="26.0" y="676.0" />
+      <point x="26.0" y="273.0" />
+      <point x="257.5997685185183" y="273.0" />
+      <point x="-64.40000000000009" y="60.5" />
+    </edge>
+    <edge source="com.senla.service.OrderService" target="com.senla.dao.MasterDao">
+      <point x="-74.22222222222229" y="-104.5" />
+      <point x="622.9480092592589" y="676.0" />
+      <point x="320.99999999999994" y="676.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.senla.api.dao.IMasterDao" target="com.senla.model.Master">
+      <point x="0.0" y="-27.0" />
+      <point x="228.19976851851845" y="283.0" />
+      <point x="289.79976851851836" y="283.0" />
+      <point x="-32.200000000000045" y="60.5" />
+    </edge>
+    <edge source="com.senla.service.OrderService" target="com.senla.dao.GarageDao">
+      <point x="55.66666666666663" y="-104.5" />
+      <point x="752.8368981481478" y="666.0" />
+      <point x="946.375" y="666.0" />
+      <point x="-70.0" y="38.5" />
+    </edge>
+    <edge source="com.senla.api.dao.IOrderDao" target="com.senla.model.Order">
+      <point x="0.0" y="-49.0" />
+      <point x="494.69976851851845" y="283.0" />
+      <point x="574.6747685185185" y="283.0" />
+      <point x="-73.60000000000002" y="126.5" />
+    </edge>
+    <edge source="com.senla.service.MasterService" target="com.senla.api.service.IMasterService">
+      <point x="0.0" y="-38.0" />
+      <point x="102.94976851851845" y="676.0" />
+      <point x="116.5" y="676.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.senla.dao.MasterDao" target="com.senla.api.dao.IMasterDao">
+      <point x="-78.375" y="-38.5" />
+      <point x="242.62499999999994" y="431.0" />
+      <point x="228.19976851851845" y="431.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.senla.dao.GarageDao" target="com.senla.model.Garage">
+      <point x="78.75" y="-38.5" />
+      <point x="1095.125" y="431.0" />
+      <point x="1070.494537037037" y="431.0" />
+      <point x="1070.494537037037" y="283.0" />
+      <point x="1090.8247685185186" y="283.0" />
+      <point x="31.400000000000034" y="93.5" />
+    </edge>
+    <edge source="com.senla.service.MasterService" target="com.senla.dao.MasterDao">
+      <point x="53.0" y="-38.0" />
+      <point x="155.94976851851845" y="676.0" />
+      <point x="251.3333333333332" y="676.0" />
+      <point x="-69.66666666666674" y="38.5" />
+    </edge>
+    <edge source="com.senla.service.OrderService" target="com.senla.dao.OrderDao">
+      <point x="-37.111111111111086" y="-104.5" />
+      <point x="660.0591203703701" y="656.0" />
+      <point x="519.0416666666665" y="656.0" />
+      <point x="-79.33333333333337" y="82.5" />
+    </edge>
+    <edge source="com.senla.service.GarageService" target="com.senla.api.service.IGarageService">
+      <point x="50.66666666666666" y="-38.0" />
+      <point x="1187.8278703703704" y="676.0" />
+      <point x="1222.375" y="676.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.senla.api.dao.IGarageDao" target="com.senla.model.Garage">
+      <point x="0.0" y="-27.0" />
+      <point x="919.6997685185186" y="283.0" />
+      <point x="996.6247685185185" y="283.0" />
+      <point x="-62.80000000000001" y="93.5" />
+    </edge>
+    <edge source="com.senla.dao.OrderDao" target="com.senla.api.dao.IOrderDao">
+      <point x="-89.25" y="-82.5" />
+      <point x="509.12499999999994" y="431.0" />
+      <point x="494.69976851851845" y="431.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="662.0" y="476.0" />
+  <SelectedNodes>
+    <node>com.senla.service.OrderService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
